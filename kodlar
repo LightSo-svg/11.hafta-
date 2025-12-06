@@ -1,0 +1,5 @@
+select(sum(sut_lt)*40/
+(Select datediff(day,'2014-02-13 00:01:12.230','2016-12-25 16:43:30.163') from alinan_sut);
+
+(select sum(verilen_para) from para where musteri_kodu=202);
+(select sum(sut_tutar) from alinan_sut where musteri_kodu=202);
